@@ -25,8 +25,19 @@ body{
     text-transform: capitalize;
     font-style: oblique;
 }
+
+.column{
+  display: flex;
+  flex-flow: column;
+}
+
+.row{
+  display: flex;
+  flex-flow: row;
+}
 .row img {
-  border-radius: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
