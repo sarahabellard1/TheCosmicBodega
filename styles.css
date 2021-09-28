@@ -16,6 +16,10 @@ body{
     padding-bottom:50px;
 }
 
+#iotd_description{
+  padding-bottom:50px;
+}
+
 #slogan{
     padding-top: 20px;
     text-transform: capitalize;
