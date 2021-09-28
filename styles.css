@@ -1,0 +1,23 @@
+
+
+#header{
+    padding: 0px;
+}
+
+body{
+    padding-bottom: 50px;
+}
+
+#mission_statement{
+    font-size: medium;
+}
+
+#item_of_the_day{
+    padding-bottom:50px;
+}
+
+#slogan{
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-style: oblique;
+}
