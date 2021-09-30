@@ -16,13 +16,11 @@ body{
 }
 
 #iotd_description{
-  padding-bottom:20px;
 }
 
-#footer{
-  padding-top: 20px;
+#wedge{
+  height: 50px;
 }
-
 
 #slogan{
     padding-top: 20px;
