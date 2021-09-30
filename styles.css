@@ -1,4 +1,7 @@
 
+.html{
+  margin-bottom: 65px;
+}
 
 #header{
     padding: 0px;
@@ -18,9 +21,6 @@ body{
 #iotd_description{
 }
 
-#wedge{
-  height: 50px;
-}
 
 #slogan{
     padding-top: 20px;
