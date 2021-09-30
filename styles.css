@@ -25,9 +25,26 @@
     font-style: oblique;
 }
 
+.aisle_name{
+  text-align:left;
+}
+
 .aisle img{
   width:200px;
   height:200px;
   margin:auto;
   display:block;
+}
+
+@media screen and (max-width: 768px){
+  .aisle_name{
+    text-align:center;
+  }
+
+  .aisle img{
+    width:100px;
+    height:100px;
+    margin:auto;
+    display:block;
+  }
 }
