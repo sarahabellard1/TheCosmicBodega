@@ -23,6 +23,10 @@ body{
   height: 10%;
 }
 
+body{
+  padding-bottom: 65px;
+}
+
 #slogan{
     padding-top: 20px;
     text-transform: capitalize;
