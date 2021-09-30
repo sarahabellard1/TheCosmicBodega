@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+.container-fluid{
+  margin-bottom:0px;
+}
+
 .navbar{
   margin-bottom: 0px;
 }
