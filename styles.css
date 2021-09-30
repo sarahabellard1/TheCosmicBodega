@@ -29,6 +29,18 @@
   text-align:left;
 }
 
+.aisle .col-sm{
+  border-style: solid;
+  background-color: #FAF8F6;
+  border-radius: 8px;
+}
+
+#quantity{
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+}
+
 .aisle img{
   width:200px;
   height:200px;
@@ -38,7 +50,6 @@
 
 @media screen and (max-width: 768px){
   .aisle_name{
-    text-align:center;
   }
 
   .aisle img{
