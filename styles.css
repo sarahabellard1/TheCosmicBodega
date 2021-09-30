@@ -1,10 +1,10 @@
 
 
-#header{
+.header{
     padding: 0px;
 }
 
-.container-fluid{
+.footer{
   margin-bottom:0px;
 }
 
@@ -25,11 +25,9 @@
     font-style: oblique;
 }
 
-#produce_products{
-}
-
-#produce_products img{
-  width:512px;
-  height:342px;
-  max-width: 100%;
+.aisle img{
+  width:200px;
+  height:200px;
+  margin:auto;
+  display:block;
 }
