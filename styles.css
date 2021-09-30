@@ -1,7 +1,4 @@
 
-.html{
-  margin-bottom: 65px;
-}
 
 #header{
     padding: 0px;
@@ -16,6 +13,7 @@ body{
 }
 
 #item_of_the_day{
+  margin-bottom: 65px;
 }
 
 #iotd_description{
