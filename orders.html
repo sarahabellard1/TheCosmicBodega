@@ -42,12 +42,29 @@
     </nav>
     <!-- Content -->
     <div class="container-fluid pt-4 px-5">
-        <h1>Orders</h1>
-        <div class ="d-flex flex-row-reverse">
-            <button type="button" class="btn btn-primary">Create order</button>
+        <h1 class="pb-3">Orders</h1>
+        <!-- Order buttons -->
+        <div class ="row">
+            <div class="col">
+                <div class = "d-flex bd-highlight">
+                    <div class="px-1 pt-1 bd-highlight">
+                        <button type="button" class="btn btn-primary">Edit</button>
+                    </div>
+                    <div class="px-1 pt-1 bd-highlight">
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class = "d-flex justify-content-end">
+                    <div class="px-1 pt-1 bd-highlight">
+                        <button type="button" class="btn btn-primary">Create order</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Navtabs -->
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs pt-4">
             <li class="nav-item"><a class="nav-link active" href="#">All Orders</a></li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Open</a>
