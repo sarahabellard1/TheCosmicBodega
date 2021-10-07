@@ -22,3 +22,8 @@ tbody tr:hover .hover-reveal {
 .hover-reveal {
     display: none;
 }
+
+.bi-x {
+    font-size: 1.7rem;
+    display: flex;
+}
