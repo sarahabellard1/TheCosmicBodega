@@ -50,6 +50,7 @@
 
 @media screen and (max-width: 768px){
   .aisle_name{
+    text-align: left;
   }
 
   .aisle img{
