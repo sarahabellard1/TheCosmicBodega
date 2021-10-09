@@ -12,6 +12,9 @@
     <!-- Custom CSS -->
     <link href="backstore_styles.css" rel="stylesheet">
 
+    <!-- Icons font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <title>Orders</title>
 </head>
 <body>
@@ -45,7 +48,7 @@
     </nav>
     <!-- Content -->
     <div class="container-fluid pt-4 px-5">
-        <div class="container-fluid">
+        <div class="container-fluid top-header">
             <h1 class="pb-3">Orders</h1>
             <!-- Order buttons -->
             <div class ="row pb-4">
@@ -75,26 +78,27 @@
             </ul>
             <!-- Table -->
             <div class="table-responsive-lg">
-                <table class="table">
+                <table>
                     <!-- Header -->
                     <thead>
                         <tr>
-                            <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                            <th scope="col">Order</th>
-                            <th scope="col">Date</th>
-                            <th scope="col">Customer</th>
-                            <th scope="col">Payment Status</th>
-                            <th scope="col">Fulfillment Status</th>
-                            <th scope="col">Total (GS)</th>
-                            <th scope="col">Items</th>
-                            <th scope="col">Delivery Method</th>
+                            <th scope="col" width="3%"><input class="form-check-input" type="checkbox"></th>
+                            <th scope="col" width="5%">Order</th>
+                            <th scope="col" width="15%">Date</th>
+                            <th scope="col" width="15%">Customer</th>
+                            <th scope="col" width="10%">Payment Status</th>
+                            <th scope="col" width="10%">Fulfillment Status</th>
+                            <th scope="col" width="5%">Total (GS)</th>
+                            <th scope="col" width="3%">Items</th>
+                            <th scope="col" width="10%">Delivery Method</th>
+                            <th scope="col" width="5%"></th>
                         </tr>
                     </thead>
                     <!-- Body -->
                     <tbody>
                         <tr>
                             <!-- Data -->
-                            <th scope="row"><input class="form-check-input" type="checkbox">
+                            <td><input class="form-check-input" type="checkbox">
                             <td>#10793</td>
                             <td>September 2, 2:21PM</td>
                             <td>Colonel Mobsin</td>
@@ -102,17 +106,17 @@
                             <td><span class="badge rounded-pill bg-success">Fulfilled</span></td>
                             <td>250.00</td>
                             <td>1</td>
-                            <td>Local pickup</td>
-                            <!-- Revealable Edit / Delete Buttons-->
+                            <td>In-store pickup</td>
+                            <!-- Edit / Delete Buttons-->
                             <td>
-                                <div class="container-fluid hover-reveal">
-                                    <button type="button" class="btn btn-sm btn-primary mt-1">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-danger mt-1">Delete</button>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-sm btn-danger ms-1">X</button>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><input class="form-check-input" type="checkbox">
+                            <td><input class="form-check-input" type="checkbox">
                             <td>#10794</td>
                             <td>September 17, 7:01PM</td>
                             <td>The Mighty Ferlan of Scarolok</td>
@@ -122,14 +126,14 @@
                             <td>5</td>
                             <td>Express</td>
                             <td>
-                                <div class="container-fluid hover-reveal">
-                                    <button type="button" class="btn btn-sm btn-primary mt-1">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-danger mt-1">Delete</button>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-sm btn-danger ms-1">X</button>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><input class="form-check-input" type="checkbox">
+                            <td><input class="form-check-input" type="checkbox">
                             <td>#10795</td>
                             <td>September 25, 11:00AM</td>
                             <td>Arczoik Temeredo</td>
@@ -137,16 +141,16 @@
                             <td><span class="badge rounded-pill  bg-success">Fulfilled</span></td>
                             <td>550.00</td>
                             <td>2</td>
-                            <td>Local delivery</td>
+                            <td>Free delivery</td>
                             <td>
-                                <div class="container-fluid hover-reveal">
-                                    <button type="button" class="btn btn-sm btn-primary mt-1">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-danger mt-1">Delete</button>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-sm btn-danger ms-1">X</button>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><input class="form-check-input" type="checkbox">
+                            <td><input class="form-check-input" type="checkbox">
                             <td>#10796</td>
                             <td>October 5, 8:00AM</td>
                             <td>Hapnir Moban</td>
@@ -154,16 +158,16 @@
                             <td><span class="badge rounded-pill bg-primary">Ready for delivery</span></td>
                             <td>600.00</td>
                             <td>3</td>
-                            <td>Local delivery</td>
+                            <td>Free delivery</td>
                             <td>
-                                <div class="container-fluid hover-reveal">
-                                    <button type="button" class="btn btn-sm btn-primary mt-1">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-danger mt-1">Delete</button>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-sm btn-danger ms-1">X</button>
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><input class="form-check-input" type="checkbox">
+                            <td><input class="form-check-input" type="checkbox">
                             <td>#10797</td>
                             <td>October 5, 12:20PM</td>
                             <td>Blolorm Luxons</td>
@@ -173,9 +177,9 @@
                             <td>4</td>
                             <td>Express</td>
                             <td>
-                                <div class="container-fluid hover-reveal">
-                                    <button type="button" class="btn btn-sm btn-primary mt-1">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-danger mt-1">Delete</button>
+                                <div class="d-flex">
+                                    <button class="btn btn-sm btn-primary"><i class="bi bi-pencil"></i></button>
+                                    <button class="btn btn-sm btn-danger ms-1">X</button>
                                 </div>
                             </td>
                         </tr>

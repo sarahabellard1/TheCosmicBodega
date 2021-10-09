@@ -6,6 +6,10 @@ thead {
     color: rgb(1, 57, 131);
 }
 
+td, th {
+    padding: 3px 10px;
+}
+
 tbody tr:hover {
     background-color: rgb(241, 247, 255);
 }
@@ -21,4 +25,102 @@ tbody tr:hover .hover-reveal {
 
 .hover-reveal {
     display: none;
+}
+
+.bi-x {
+    font-size: 1.7rem;
+    display: flex;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+@media
+only screen and (max-width: 1000px) {
+    td, th {
+        padding: 3px 10px;
+    }
+
+    .top-header {
+        width: 112%;
+        margin-left: -6%;
+    }
+
+    .table-container {
+        width: 112%;
+        margin-left: -6%;
+        font-size: 90%;
+    }
+}
+
+
+@media
+only screen and (max-width: 600px) {
+    .top-header {
+        width: 130%;
+        margin-left: -15%;
+    }
+
+    .table-container {
+        width: 130%;
+        margin-left: -15%;
+        font-size: 100%;
+    }
+
+    .checkout {
+        margin-left: -50%;
+    }
+
+    /* Force table to not be like tables anyomore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none, for accessibility */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        background-color: red;
+    }
+
+    tr { 
+        border: 1px solic #ccc; 
+        margin-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ccc;
+    }
+
+    td {
+        /* Behave like a "row" */
+        border: none;
+        /* border-bottom: 1px solid #eee; */
+        position: relative;
+        padding-left: 60%;
+        padding-top: 0.5rem;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top / left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;        
+        white-space: nowrap;
+        /* Extra styling */
+        font-weight: 500;
+    }
+
+    /* Label the data */
+    td:nth-of-type(1):before { content: ""}
+    td:nth-of-type(2):before { content: "Order"}
+    td:nth-of-type(3):before { content: "Date"}
+    td:nth-of-type(4):before { content: "Customer"}
+    td:nth-of-type(5):before { content: "Payment Status"}
+    td:nth-of-type(6):before { content: "Fulfillment Status"}
+    td:nth-of-type(7):before { content: "Total (GS)"}
+    td:nth-of-type(8):before { content: "Items"}
+    td:nth-of-type(9):before { content: "Delivery Method"}
 }
