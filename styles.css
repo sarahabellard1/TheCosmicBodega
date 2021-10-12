@@ -81,3 +81,25 @@
 .form-group{
   margin: 20px 0;
 }
+
+.container .bagel{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  max-width: 300px;
+  background-color: lightgrey;
+  padding:20px;
+  border-radius: 5px;
+}
+
+button{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+label{
+  display:block;
+}
