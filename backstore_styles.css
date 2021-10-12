@@ -85,8 +85,8 @@ only screen and (max-width: 600px) {
         background-color: red;
     }
 
-    tr { 
-        border: 1px solic #ccc; 
+    tr {
+        border: 1px solic #ccc;
         margin-top: 1.5rem;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid #ccc;
@@ -107,7 +107,7 @@ only screen and (max-width: 600px) {
         /* Top / left values mimic padding */
         top: 6px;
         left: 6px;
-        width: 45%;        
+        width: 45%;
         white-space: nowrap;
         /* Extra styling */
         font-weight: 500;
