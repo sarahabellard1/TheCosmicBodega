@@ -15,7 +15,7 @@ This projects aims to make The Cosmic Bodega more accessible by providing it wit
 This project is built with HTML, CSS, Bootstrap 5, Javascript, and PHP
 
 
-## Functionalities
+## Features
 
 This platform will have these core functionalities:
 
