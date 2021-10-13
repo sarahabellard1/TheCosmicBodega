@@ -1,8 +1,8 @@
 ## Table of Contents
-* Intro
-* Technologies
-* Features
-* Link
+* [Intro](#intro)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Link](#link)
 
 ## Intro
 
