@@ -17,6 +17,15 @@
 #iotd_description {
 }
 
+.carousel img {
+  display: block;
+  height: auto;
+  max-width: 33%;
+  line-height: 1;
+  margin:auto;
+  width: 100%;
+}
+
 #slogan {
   padding-top: 20px;
   text-transform: capitalize;
