@@ -87,7 +87,7 @@
   justify-content: center;
 }
 
-form{
+.bagel form{
   max-width: 300px;
   background-color: lightgrey;
   padding:20px;
