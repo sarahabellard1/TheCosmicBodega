@@ -46,8 +46,11 @@
         Add to cart
       </button>
       Quantity:
-      <input type="number" id="quantity" name="quantity" min="1" max="99">
+      <input type="number" id="quantity" name="quantity" min="1" max="99" onkeyup="saveValue(this)" onchange="saveValue(this)">
     </div>
   </div>
 </div>
+
+<script src="storeInputLocally.js"></script>
+
 </html>
