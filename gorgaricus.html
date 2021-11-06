@@ -16,7 +16,7 @@
       <a class="navbar-brand" href="produce.html">
       <img src="images/logo.png" width="30" height="30">
       <img src="images/back_arrow.png" width="20" height="20">
-      Frumble
+      Gorgaricus
       </a>
 
     </nav>
@@ -44,8 +44,11 @@
         Add to cart
       </button>
       Quantity:
-      <input type="number" id="quantity" name="quantity" min="1" max="99">
+      <input type="number" id="quantity" name="quantity" min="1" max="99" onkeyup="saveValue(this)" onchange="saveValue(this)">
     </div>
   </div>
 </div>
+
+<script src="storeInputLocally.js"></script>
+
 </html>
