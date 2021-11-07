@@ -91,22 +91,11 @@
   margin: 20px 0;
 }
 
-.container .bagel{
-  display: flex;
-  justify-content: center;
-}
-
 .bagel form{
-  max-width: 300px;
-  background-color: lightgrey;
+  max-width: 1000px;
+  background-color: white;
   padding:20px;
   border-radius: 5px;
-}
-
-.bagel button{
-  display: block;
-  width: 100%;
-  margin: auto;
 }
 
 label{
