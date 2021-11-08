@@ -32,8 +32,13 @@
         Alloy Drum
       </h3>
       <h5 class="text-secondary"id="price">
-        Price: GS 4.99 ea.
+        Price: GS 4.99
       </h5>
+
+      <h5 class="text-secondary" >
+        Total: GS<span id="total-item-price"></span>
+      </h5>
+
       <details>
         <summary>Description:</summary>
       <p class="item_description text-wrap">
@@ -45,8 +50,8 @@
         Add to cart
       </button>
       Quantity:
-      <input type="number" id="quantity" name="quantity" min="1" max="99" onkeyup="saveValue(this)" onchange="saveValue(this)">
-    </div>
+      <input type="number" id="quantity" name="quantity" min="1" max="99" oninput="saveValue(this);updatePriceTotal()">
+   </div>
   </div>
 </div>
 
