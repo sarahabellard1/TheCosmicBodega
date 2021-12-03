@@ -1,0 +1,201 @@
+﻿<?xml version="1.1"?>
+<produce>
+    <product>
+        <name>Frumble</name>
+        <price>240</price>
+        <description>The humble frumble. A fruit originally grown on TASIT-9. Sought after for its sharp flavor and toxic aroma. Pairs fantastically with a Junglovian eel fillet and a side of bufallant milk.</description>
+        <image>frumble.png</image>
+    </product>
+    <product>
+        <name>Kurporpa</name>
+        <price>133</price>
+        <description>A fruit that is both spicy and tart. It will attempt to digest you while you eat it. Some say this just adds to the flavor complexity. We hope you're up to the challenge.</description>
+        <image>kurporpa.png</image>
+    </product>
+
+    <product>
+        <name>Squelp</name>
+        <price>14</price>
+        <description>"A Squelp a Day Keeps the Slarkeestas at Bay"
+-Ancient Junglovian Proverb
+*The Cosmic Bodega will not be held responsible for any Slarkeesta related injuries or deaths related to the sale of our squelps.</description>
+        <image>squelp.png</image>
+    </product>
+
+    <product>
+        <name>Gadoobagorp</name>
+        <price>600</price>
+        <description>The gadoobagorp's shell is harder than lemerian alloy steel, but the juicy flesh and intoxicating juices inside have supposedly lead to massive innovations in the metallurgy sector.</description>
+        <image>gadoobagorp.png</image>
+    </product>
+
+    <product>
+        <name>Gorgaricus</name>
+        <price>200</price>
+        <description>Just smelling the gorgaricus causes one to experience a deeply unsettling feeling of existential dread. Needless to say, it tastes better than it smells.</description>
+        <image>gorgaricus.png</image>
+    </product>
+
+    <product>
+        <name>Tribbles</name>
+        <price>13</price>
+        <description>We're not even sure that tribbles are edible, but we welcome you to try. Godspeed moonman.</description>
+        <image>tribbles.png</image>
+    </product>
+</produce>
+
+<pantry>
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+</pantry>
+
+<dairy_and_eggs>
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+</dairy_and_eggs>
+
+<beverages>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+</beverages>
+
+<snacks>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+  <product>
+    <name></name>
+    <price></price>
+    <description></description>
+  </product>
+
+</snacks>
