@@ -1,18 +1,3 @@
-#create a form to accept product information and POST it to add_product.php to be added to our XML document.
-    <!-- <h1 id="prompt_product_create">Provide the following and click submit to add.</h1>
-    <form action="add_product.php" method="post" class="create">
-            <input type="text" placeholder="Name" name="name" required> <br>
-            <input type="text" placeholder="Price" name="price" required> <br>
-            <input type="text" placeholder="ID" name="id" required> <br>
-            <input type="text" placeholder="Description" name="description" required> <br>
-            <input type="text" placeholder="Image Directory" name="image" required> <br>
-            <input type="text" placeholder="Aisle" name="aisle" required> <br>
-            <input type="text" placeholder="Image Width" name="width" required> <br>
-            <input type="text" placeholder="Image Height" name="height" required> <br>
-            <button type="submit" name="submit">Create</button><br>
-            <a href="index.html">Return</a> <br> -->
-
-
 
 <!DOCTYPE html>
 <html lang="en">
