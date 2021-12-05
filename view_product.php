@@ -12,15 +12,17 @@
   </head>
 
   <?php
-$xmldata = simplexml_load_file("products.xml") or die("Failed to load XML file");
+$aisle = simplexml_load_file("products.xml");
+$aisle_name = $_GET['aisle'];
+$product_index = (int)$_GET['product_index'];
   ?>
 
 <div class="header container-fluid" id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="produce.html">
+      <a class="navbar-brand" href="index.html">
       <img src="images/logo.png" width="30" height="30">
       <img src="images/back_arrow.png" width="20" height="20">
-      <?php echo $xmldata[0]->name; ?>
+      <?php echo $aisle->$aisle_name->product[$product_index]->name; ?>
       </a>
 
     </nav>
@@ -29,14 +31,14 @@ $xmldata = simplexml_load_file("products.xml") or die("Failed to load XML file")
 <div class="product container">
   <div class="row">
     <div class="col">
-      <img  src="images/frumble.png">
+      <?php echo '<img src="'. $aisle->$aisle_name->product[$product_index]->image . '"  ' . $aisle->$aisle_name->product[$product_index]->i_width . ' '. $aisle->$aisle_name->product[$product_index]->i_height . '>'; ?>
     </div>
     <div class="col">
       <h3 class="item_title display-3">
-        Frumble
+        <?php echo $aisle->$aisle_name->product[$product_index]->name; ?>
       </h3>
       <h5 class="text-secondary" id="price">
-        Price: GS240
+        Price: GS<?php echo $aisle->$aisle_name->product[$product_index]->price; ?>
       </h5>
 
       <h5 class="text-secondary" >
@@ -46,7 +48,7 @@ $xmldata = simplexml_load_file("products.xml") or die("Failed to load XML file")
       <details>
         <summary>Description:</summary>
       <p class="item_description text-wrap">
-        The humble frumble. A fruit originally grown on TASIT-9. Sought after for its sharp flavor and toxic aroma. Pairs fantastically with a Junglovian eel fillet and a side of bufallant milk.
+        <?php echo $aisle->$aisle_name->product[$product_index]->description; ?>
       </p>
       </details>
       <button type="button" class="btn btn-secondary btn-lg">
