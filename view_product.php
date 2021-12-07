@@ -31,6 +31,7 @@ $product_index = (int)$_GET['product_index'];
 <div class="product container">
   <div class="row">
     <div class="col">
+       <form action="" method="post" name="myform">
       <?php echo '<img src="'. $aisle->$aisle_name->product[$product_index]->image . '"  ' . $aisle->$aisle_name->product[$product_index]->i_width . ' '. $aisle->$aisle_name->product[$product_index]->i_height . '>'; ?>
     </div>
     <div class="col">
@@ -51,15 +52,25 @@ $product_index = (int)$_GET['product_index'];
         <?php echo $aisle->$aisle_name->product[$product_index]->description; ?>
       </p>
       </details>
-      <button type="button" class="btn btn-secondary btn-lg">
+     <button action="example1.php" method="post" type="button" name="Add to cart" class="btn btn-secondary btn-lg">
         Add to cart
       </button>
       Quantity:
       <input type="number" id="quantity" name="quantity" min="1" max="99" oninput="saveValue(this);updatePriceTotal()">
-       </div>
+       </form>
+      </div>
   </div>
 </div>
 
-<script src="storeInputLocally.js"></script>
+<script 
+        src="storeInputLocally.js">
+  <script>
+    function Added() {
+        if (confirm('Item added to cart! \nProceed to checkout?')) {
+            document.myform.action = "example1.php";
+        } else {}
+    }
+</script>
+  </script>
 
 </html>
