@@ -1,35 +1,29 @@
 <html>
 <body>
 
-
+<h1>Product has been added!</h1>
 <?php
 $aisle_name = $_POST['aisle'];
-
+echo $aisle_name . "<br>";
 $id = $_POST['id'];
-
+echo $id . "<br>";
 $name = $_POST['name'];
-
+echo $name . "<br>";
 $price = $_POST['price'];
-
+echo $price . "<br>";
 $description = $_POST['description'];
-
+echo $description . "<br>";
 $image = $_POST['image'];
-
+echo $image . "<br>";
 $width = $_POST['width'];
-
+echo $width . "<br>";
 $height = $_POST['height'];
-
+echo $height . "<br>";
 
 $xml = new DomDocument('1.0', 'utf-8');
 $xml->load('products.xml', LIBXML_NOBLANKS);
 $xml->formatOutput = true;
 $products = $xml->getElementsByTagName($aisle_name)->item(0);
-
-if(empty($products)){
-  $new_aisle = $xml->createElement($_POST['aisle']);
-  $xml->childNodes[0]->appendChild($new_aisle);
-  $products = $xml->getElementsByTagName($aisle_name)->item(0);
-}
 
 $product = $xml->createElement('product');
 
@@ -56,8 +50,10 @@ $product->appendChild($d_height);
 
 $xml->save('products.xml');
 
-echo "<meta http-equiv=\"refresh\" content=\"0;URL=product_list.php\">";
+echo "All done!";
+
 ?>
 
+<a href="index.html">Return?</a>
 </body>
 </html>
